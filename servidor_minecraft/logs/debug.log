@@ -1486,3 +1486,65 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [05Oct2025 15:14:34.852] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [05Oct2025 15:19:34.848] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [05Oct2025 15:19:34.852] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Oct2025 15:21:58.099] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, -20], discarding
+[05Oct2025 15:21:58.102] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, -19], discarding
+[05Oct2025 15:21:58.367] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -20], discarding
+[05Oct2025 15:21:58.368] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -19], discarding
+[05Oct2025 15:21:58.370] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, -20], discarding
+[05Oct2025 15:21:58.371] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, -19], discarding
+[05Oct2025 15:22:06.919] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/1169, l='ServerLevel[world]', x=148.16, y=62.46, z=23.45, removed=DISCARDED]
+[05Oct2025 15:22:09.038] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, -21], discarding
+[05Oct2025 15:22:09.585] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/1169, l='ServerLevel[world]', x=148.16, y=62.46, z=23.45, removed=DISCARDED]
+[05Oct2025 15:22:10.236] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/1171, l='ServerLevel[world]', x=150.81, y=62.65, z=9.27, removed=DISCARDED]
+[05Oct2025 15:22:13.595] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -21], discarding
+[05Oct2025 15:22:13.596] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -20], discarding
+[05Oct2025 15:22:16.033] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/1169, l='ServerLevel[world]', x=148.16, y=62.46, z=23.45, removed=DISCARDED]
+[05Oct2025 15:22:17.012] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/1171, l='ServerLevel[world]', x=150.81, y=62.65, z=9.27, removed=DISCARDED]
+[05Oct2025 15:24:34.848] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Oct2025 15:24:34.852] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Oct2025 15:24:44.886] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, -20], discarding
+[05Oct2025 15:24:44.887] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, -20], discarding
+[05Oct2025 15:24:44.888] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -20], discarding
+[05Oct2025 15:24:44.889] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, -20], discarding
+[05Oct2025 15:24:44.892] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, -19], discarding
+[05Oct2025 15:24:44.893] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, -18], discarding
+[05Oct2025 15:24:44.899] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: minecraft:trial_chambers
+[05Oct2025 15:24:44.899] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, -20], discarding
+[05Oct2025 15:24:44.901] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, -19], discarding
+[05Oct2025 15:24:44.902] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, -18], discarding
+[05Oct2025 15:24:44.903] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, -17], discarding
+[05Oct2025 15:24:45.818] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, -21], discarding
+[05Oct2025 15:24:45.819] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -21], discarding
+[05Oct2025 15:24:45.819] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, -21], discarding
+[05Oct2025 15:24:45.824] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, -21], discarding
+[05Oct2025 15:24:45.825] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, -21], discarding
+[05Oct2025 15:24:46.943] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, -22], discarding
+[05Oct2025 15:24:46.946] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, -22], discarding
+[05Oct2025 15:24:46.947] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -22], discarding
+[05Oct2025 15:24:46.948] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, -22], discarding
+[05Oct2025 15:24:46.949] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, -22], discarding
+[05Oct2025 15:24:47.328] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, -20], discarding
+[05Oct2025 15:24:47.329] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, -19], discarding
+[05Oct2025 15:24:47.330] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, -18], discarding
+[05Oct2025 15:24:47.331] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, -17], discarding
+[05Oct2025 15:24:47.547] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, -23], discarding
+[05Oct2025 15:24:47.548] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -23], discarding
+[05Oct2025 15:24:47.550] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, -23], discarding
+[05Oct2025 15:24:47.551] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, -23], discarding
+[05Oct2025 15:24:49.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [JuanSBN: Teleported JuanSBN to Theplaiboy]
+[05Oct2025 15:25:37.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Theplaiboy: Teleported Theplaiboy to JuanSBN]
+[05Oct2025 15:25:41.556] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Theplaiboy moved too quickly! -0.6768369913461356,-0.5427000017761969,-19.193644769347088
+[05Oct2025 15:25:41.561] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: JuanSBN moved too quickly! 6.648629120641999,6.347152044113116,-4.817401872951791
+[05Oct2025 15:25:50.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Theplaiboy: Teleported Theplaiboy to JuanSBN]
+[05Oct2025 15:26:22.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Theplaiboy: Set own game mode to Spectator Mode]
+[05Oct2025 15:26:27.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Theplaiboy: Teleported Theplaiboy to manuelreyes89]
+[05Oct2025 15:26:28.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [JuanSBN: Teleported JuanSBN to manuelreyes89]
+[05Oct2025 15:26:53.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Theplaiboy> pollica
+[05Oct2025 15:28:23.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Theplaiboy: Set own game mode to Creative Mode]
+[05Oct2025 15:28:59.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Theplaiboy: Set own game mode to Survival Mode]
+[05Oct2025 15:29:05.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Theplaiboy: Set manuelreyes89's game mode to Survival Mode]
+[05Oct2025 15:29:09.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Theplaiboy: Set own game mode to Creative Mode]
+[05Oct2025 15:29:34.839] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Oct2025 15:29:34.843] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Oct2025 15:29:37.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Theplaiboy: Set own game mode to Survival Mode]
+[05Oct2025 15:29:53.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Theplaiboy: Set own game mode to Creative Mode]
