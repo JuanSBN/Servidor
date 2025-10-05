@@ -833,3 +833,7 @@
 [05Oct2025 15:58:24.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to JuanSBN: la pura verdad
 [05Oct2025 15:58:24.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to Theplaiboy: la pura verdad
 [05Oct2025 15:58:24.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to manuelreyes89: la pura verdad
+[05Oct2025 16:03:35.730] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: manuelreyes89 lost connection: Disconnected
+[05Oct2025 16:03:35.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: manuelreyes89 left the game
+[05Oct2025 16:06:26.376] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Theplaiboy lost connection: Disconnected
+[05Oct2025 16:06:26.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Theplaiboy left the game

@@ -1817,3 +1817,11 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [05Oct2025 15:58:24.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to manuelreyes89: la pura verdad
 [05Oct2025 15:59:39.994] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [05Oct2025 15:59:39.999] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Oct2025 16:03:35.730] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: manuelreyes89 lost connection: Disconnected
+[05Oct2025 16:03:35.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: manuelreyes89 left the game
+[05Oct2025 16:04:39.988] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Oct2025 16:04:39.991] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Oct2025 16:06:26.376] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Theplaiboy lost connection: Disconnected
+[05Oct2025 16:06:26.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Theplaiboy left the game
+[05Oct2025 16:09:39.984] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Oct2025 16:09:39.988] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
