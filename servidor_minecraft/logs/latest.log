@@ -1,672 +1,293 @@
-[05Oct2025 03:14:23.378] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[05Oct2025 03:14:23.383] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[05Oct2025 03:14:23.508] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[05Oct2025 03:14:23.559] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[05Oct2025 03:14:23.796] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[05Oct2025 03:14:23.799] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[05Oct2025 03:14:23.801] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[05Oct2025 03:14:23.805] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[05Oct2025 03:14:23.939] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[05Oct2025 03:14:25.310] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[05Oct2025 03:14:25.314] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[05Oct2025 03:14:30.578] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[05Oct2025 03:14:30.582] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[05Oct2025 03:14:31.054] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[05Oct2025 03:14:31.450] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
-[05Oct2025 03:14:32.263] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05Oct2025 03:14:32.372] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23105!/assets/.mcassetsroot' uses unexpected schema
-[05Oct2025 03:14:32.372] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23105!/data/.mcassetsroot' uses unexpected schema
-[05Oct2025 03:14:34.331] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[05Oct2025 03:14:34.457] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[05Oct2025 03:14:34.910] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[05Oct2025 03:14:34.910] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[05Oct2025 03:14:34.911] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[05Oct2025 03:14:34.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[05Oct2025 03:14:35.019] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[05Oct2025 03:14:35.041] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[05Oct2025 03:14:35.124] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05Oct2025 03:14:35.125] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[05Oct2025 03:14:35.125] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05Oct2025 03:14:35.126] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[05Oct2025 03:14:35.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[05Oct2025 03:14:35.147] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Oct2025 03:14:35.147] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[05Oct2025 03:14:35.147] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[05Oct2025 03:14:35.148] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[05Oct2025 03:14:35.148] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[05Oct2025 03:14:35.150] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[05Oct2025 03:14:35.151] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[05Oct2025 03:14:35.152] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
-[05Oct2025 03:14:35.153] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
-[05Oct2025 03:14:35.183] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[05Oct2025 03:14:35.456] [Server thread/ERROR] [net.minecraft.world.RandomSequences/]: Failed to load random sequence salt
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at net.minecraft.world.RandomSequences.m_287187_(RandomSequences.java:103) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerLevel.m_287052_(ServerLevel.java:239) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.storage.DimensionDataStorage.m_164868_(DimensionDataStorage.java:70) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.storage.DimensionDataStorage.m_164858_(DimensionDataStorage.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.storage.DimensionDataStorage.m_164861_(DimensionDataStorage.java:39) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerLevel.m_288114_(ServerLevel.java:238) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.util.Objects.requireNonNullElseGet(Objects.java:310) ~[?:?]
-	at net.minecraft.server.level.ServerLevel.<init>(ServerLevel.java:237) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_129815_(MinecraftServer.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_130006_(MinecraftServer.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:164) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[05Oct2025 03:14:35.457] [Server thread/ERROR] [net.minecraft.world.RandomSequences/]: Failed to load random sequence sequences
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at net.minecraft.world.RandomSequences.m_287187_(RandomSequences.java:103) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerLevel.m_287052_(ServerLevel.java:239) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.storage.DimensionDataStorage.m_164868_(DimensionDataStorage.java:70) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.storage.DimensionDataStorage.m_164858_(DimensionDataStorage.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.storage.DimensionDataStorage.m_164861_(DimensionDataStorage.java:39) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerLevel.m_288114_(ServerLevel.java:238) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.util.Objects.requireNonNullElseGet(Objects.java:310) ~[?:?]
-	at net.minecraft.server.level.ServerLevel.<init>(ServerLevel.java:237) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_129815_(MinecraftServer.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_130006_(MinecraftServer.java:308) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:164) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:634) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[05Oct2025 03:14:37.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[05Oct2025 03:14:41.067] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 0], discarding
-[05Oct2025 03:14:41.070] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 1], discarding
-[05Oct2025 03:14:41.071] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 2], discarding
-[05Oct2025 03:14:41.074] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 3], discarding
-[05Oct2025 03:14:41.077] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 4], discarding
-[05Oct2025 03:14:41.079] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 5], discarding
-[05Oct2025 03:14:41.081] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 6], discarding
-[05Oct2025 03:14:41.082] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 7], discarding
-[05Oct2025 03:14:41.086] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 8], discarding
-[05Oct2025 03:14:41.089] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 9], discarding
-[05Oct2025 03:14:41.101] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 0], discarding
-[05Oct2025 03:14:41.110] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 1], discarding
-[05Oct2025 03:14:41.111] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 2], discarding
-[05Oct2025 03:14:41.113] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 5], discarding
-[05Oct2025 03:14:41.115] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 3], discarding
-[05Oct2025 03:14:41.117] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 6], discarding
-[05Oct2025 03:14:41.118] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 4], discarding
-[05Oct2025 03:14:41.120] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 7], discarding
-[05Oct2025 03:14:41.121] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 9], discarding
-[05Oct2025 03:14:41.123] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 8], discarding
-[05Oct2025 03:14:41.143] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 0], discarding
-[05Oct2025 03:14:41.145] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 1], discarding
-[05Oct2025 03:14:41.147] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 3], discarding
-[05Oct2025 03:14:41.148] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 4], discarding
-[05Oct2025 03:14:41.150] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 2], discarding
-[05Oct2025 03:14:41.152] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 5], discarding
-[05Oct2025 03:14:41.153] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 6], discarding
-[05Oct2025 03:14:41.155] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 7], discarding
-[05Oct2025 03:14:41.157] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 8], discarding
-[05Oct2025 03:14:41.159] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 9], discarding
-[05Oct2025 03:14:41.191] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 0], discarding
-[05Oct2025 03:14:41.193] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 1], discarding
-[05Oct2025 03:14:41.194] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 2], discarding
-[05Oct2025 03:14:41.197] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 3], discarding
-[05Oct2025 03:14:41.198] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 5], discarding
-[05Oct2025 03:14:41.199] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 6], discarding
-[05Oct2025 03:14:41.202] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 7], discarding
-[05Oct2025 03:14:41.203] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 8], discarding
-[05Oct2025 03:14:41.205] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 9], discarding
-[05Oct2025 03:14:41.254] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 0], discarding
-[05Oct2025 03:14:41.256] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 1], discarding
-[05Oct2025 03:14:41.258] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 2], discarding
-[05Oct2025 03:14:41.260] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: minecraft:trial_chambers
-[05Oct2025 03:14:41.261] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 4], discarding
-[05Oct2025 03:14:41.263] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 5], discarding
-[05Oct2025 03:14:41.264] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 6], discarding
-[05Oct2025 03:14:41.265] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 7], discarding
-[05Oct2025 03:14:41.266] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 8], discarding
-[05Oct2025 03:14:41.267] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 9], discarding
-[05Oct2025 03:14:41.288] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 0], discarding
-[05Oct2025 03:14:41.289] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 1], discarding
-[05Oct2025 03:14:41.291] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 2], discarding
-[05Oct2025 03:14:41.292] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 3], discarding
-[05Oct2025 03:14:41.293] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 4], discarding
-[05Oct2025 03:14:41.294] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 5], discarding
-[05Oct2025 03:14:41.296] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 6], discarding
-[05Oct2025 03:14:41.297] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 7], discarding
-[05Oct2025 03:14:41.298] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 8], discarding
-[05Oct2025 03:14:41.312] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 0], discarding
-[05Oct2025 03:14:41.313] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 1], discarding
-[05Oct2025 03:14:41.314] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 2], discarding
-[05Oct2025 03:14:41.315] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 3], discarding
-[05Oct2025 03:14:41.316] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 4], discarding
-[05Oct2025 03:14:41.318] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 5], discarding
-[05Oct2025 03:14:41.320] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 6], discarding
-[05Oct2025 03:14:41.321] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 7], discarding
-[05Oct2025 03:14:41.322] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 8], discarding
-[05Oct2025 03:14:41.323] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 9], discarding
-[05Oct2025 03:14:41.324] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 9], discarding
-[05Oct2025 03:14:41.513] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [16, 14], discarding
-[05Oct2025 03:14:41.515] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [17, 14], discarding
-[05Oct2025 03:14:41.538] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [18, 14], discarding
-[05Oct2025 03:14:41.543] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [16, 15], discarding
-[05Oct2025 03:14:41.544] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [17, 15], discarding
-[05Oct2025 03:14:41.546] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [18, 15], discarding
-[05Oct2025 03:14:41.584] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Oct2025 03:14:41.702] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [16, 16], discarding
-[05Oct2025 03:14:41.703] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [16, 17], discarding
-[05Oct2025 03:14:41.705] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [16, 18], discarding
-[05Oct2025 03:14:41.706] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [16, 19], discarding
-[05Oct2025 03:14:41.707] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [16, 20], discarding
-[05Oct2025 03:14:41.709] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [16, 21], discarding
-[05Oct2025 03:14:41.710] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [16, 22], discarding
-[05Oct2025 03:14:41.711] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [16, 23], discarding
-[05Oct2025 03:14:41.715] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [17, 16], discarding
-[05Oct2025 03:14:41.716] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [17, 17], discarding
-[05Oct2025 03:14:41.717] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [17, 18], discarding
-[05Oct2025 03:14:41.719] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [17, 19], discarding
-[05Oct2025 03:14:41.720] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [17, 20], discarding
-[05Oct2025 03:14:41.720] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Oct2025 03:14:41.721] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [17, 21], discarding
-[05Oct2025 03:14:41.723] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [17, 22], discarding
-[05Oct2025 03:14:41.725] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [17, 23], discarding
-[05Oct2025 03:14:41.740] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [18, 16], discarding
-[05Oct2025 03:14:41.741] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [18, 17], discarding
-[05Oct2025 03:14:41.743] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [18, 18], discarding
-[05Oct2025 03:14:41.744] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [18, 19], discarding
-[05Oct2025 03:14:41.746] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [18, 20], discarding
-[05Oct2025 03:14:41.746] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Oct2025 03:14:41.747] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [18, 21], discarding
-[05Oct2025 03:14:41.748] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [18, 22], discarding
-[05Oct2025 03:14:41.750] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [18, 23], discarding
-[05Oct2025 03:14:41.766] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Oct2025 03:14:41.783] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Oct2025 03:14:41.822] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Oct2025 03:14:41.843] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Oct2025 03:14:41.852] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Oct2025 03:14:41.853] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Oct2025 03:14:42.309] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[05Oct2025 03:14:43.485] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[05Oct2025 03:14:43.489] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
-[05Oct2025 03:14:44.029] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
-[05Oct2025 03:14:44.341] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
-[05Oct2025 03:14:44.757] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6949 ms
-[05Oct2025 03:14:44.758] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (9.616s)! For help, type "help"
-[05Oct2025 03:14:44.774] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[05Oct2025 03:15:47.296] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json: Don't know what minecraft:leaf_litter is
-[05Oct2025 03:15:47.297] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json: Don't know what minecraft:firefly_bush is
-[05Oct2025 03:15:47.297] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json: Don't know what minecraft:wildflowers is
-[05Oct2025 03:15:47.298] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json: Don't know what minecraft:leaf_litter is
-[05Oct2025 03:15:47.298] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json: Don't know what minecraft:wildflowers is
-[05Oct2025 03:15:47.299] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json: Don't know what minecraft:short_grass is
-[05Oct2025 03:15:47.299] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json: Don't know what minecraft:firefly_bush is
-[05Oct2025 03:15:47.299] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json: Don't know what minecraft:leaf_litter is
-[05Oct2025 03:15:47.299] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json: Don't know what minecraft:wildflowers is
-[05Oct2025 03:15:47.300] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json: Don't know what minecraft:firefly_bush is
-[05Oct2025 03:15:47.334] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/transportation/pale_oak_boat' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.335] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/tools/bundle' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.336] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.336] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.336] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/tuff_slab' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.336] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.337] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/decorations/polished_tuff_wall_from_tuff_stonecutting' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.337] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/decorations/tuff_wall' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.337] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.337] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.337] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/tuff_stairs' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.337] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.337] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.337] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.338] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.338] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.338] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/polished_tuff' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.338] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.338] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.339] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/combat/saddle' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.339] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/misc/yellow_dye_from_wildflowers' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.340] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/transportation/pale_oak_chest_boat' in progress file ./world/advancements/3cd9e592-a366-3441-b3b2-b46ae6f7000f.json - it doesn't exist anymore?
-[05Oct2025 03:15:47.351] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:bundle removed now.
-[05Oct2025 03:15:47.352] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_slab removed now.
-[05Oct2025 03:15:47.352] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_wall_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.352] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_brick_stairs_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.353] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_brick_slab_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.353] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.353] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_wall_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.353] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff removed now.
-[05Oct2025 03:15:47.354] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_slab_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.354] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_stairs removed now.
-[05Oct2025 03:15:47.354] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_slab_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.355] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:chiseled_tuff_bricks_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.355] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_bricks_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.355] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_wall removed now.
-[05Oct2025 03:15:47.356] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:chiseled_tuff_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.356] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:yellow_dye_from_wildflowers removed now.
-[05Oct2025 03:15:47.356] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_stairs_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.357] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:saddle removed now.
-[05Oct2025 03:15:47.357] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_brick_wall_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.357] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:pale_oak_boat removed now.
-[05Oct2025 03:15:47.357] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_stairs_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.358] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:pale_oak_chest_boat removed now.
-[05Oct2025 03:15:47.358] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_bricks_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.359] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_wall_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.359] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:chiseled_tuff_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.360] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:yellow_dye_from_wildflowers removed now.
-[05Oct2025 03:15:47.360] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_brick_stairs_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.360] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_brick_slab_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.360] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.360] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_stairs_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.361] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_wall_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.361] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_brick_wall_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.361] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_slab_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.361] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_stairs_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.362] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_slab_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.362] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:chiseled_tuff_bricks_from_tuff_stonecutting removed now.
-[05Oct2025 03:15:47.364] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: JuanSBN[/127.159.157.93:60207] logged in with entity id 288 at (311.1753631077954, 64.0, 402.4196787838279)
-[05Oct2025 03:15:47.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JuanSBN joined the game
-[05Oct2025 03:15:47.557] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [19, 22], discarding
-[05Oct2025 03:15:47.559] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [19, 14], discarding
-[05Oct2025 03:15:47.561] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [20, 14], discarding
-[05Oct2025 03:15:47.563] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [21, 14], discarding
-[05Oct2025 03:15:47.565] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [22, 14], discarding
-[05Oct2025 03:15:47.567] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [23, 14], discarding
-[05Oct2025 03:15:47.590] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [19, 15], discarding
-[05Oct2025 03:15:47.593] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [20, 15], discarding
-[05Oct2025 03:15:47.596] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [21, 15], discarding
-[05Oct2025 03:15:47.598] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [22, 15], discarding
-[05Oct2025 03:15:47.600] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [23, 15], discarding
-[05Oct2025 03:15:47.608] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [19, 16], discarding
-[05Oct2025 03:15:47.610] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [20, 16], discarding
-[05Oct2025 03:15:47.612] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [21, 16], discarding
-[05Oct2025 03:15:47.614] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [22, 16], discarding
-[05Oct2025 03:15:47.616] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [23, 16], discarding
-[05Oct2025 03:15:47.623] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [19, 17], discarding
-[05Oct2025 03:15:47.625] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [20, 17], discarding
-[05Oct2025 03:15:47.628] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [21, 17], discarding
-[05Oct2025 03:15:47.629] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [22, 17], discarding
-[05Oct2025 03:15:47.631] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [23, 17], discarding
-[05Oct2025 03:15:47.638] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [19, 18], discarding
-[05Oct2025 03:15:47.639] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [20, 18], discarding
-[05Oct2025 03:15:47.641] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [22, 18], discarding
-[05Oct2025 03:15:47.643] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [21, 18], discarding
-[05Oct2025 03:15:47.644] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [23, 18], discarding
-[05Oct2025 03:15:47.652] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [19, 19], discarding
-[05Oct2025 03:15:47.655] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [21, 19], discarding
-[05Oct2025 03:15:47.657] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [20, 19], discarding
-[05Oct2025 03:15:47.659] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [22, 19], discarding
-[05Oct2025 03:15:47.661] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [23, 19], discarding
-[05Oct2025 03:15:47.673] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [20, 20], discarding
-[05Oct2025 03:15:47.675] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [19, 20], discarding
-[05Oct2025 03:15:47.679] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: minecraft:trial_chambers
-[05Oct2025 03:15:47.681] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [21, 20], discarding
-[05Oct2025 03:15:47.683] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [22, 20], discarding
-[05Oct2025 03:15:47.685] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [23, 20], discarding
-[05Oct2025 03:15:47.692] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [19, 21], discarding
-[05Oct2025 03:15:47.695] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [20, 21], discarding
-[05Oct2025 03:15:47.697] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [21, 21], discarding
-[05Oct2025 03:15:47.699] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [22, 21], discarding
-[05Oct2025 03:15:47.702] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [23, 21], discarding
-[05Oct2025 03:15:47.718] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [20, 22], discarding
-[05Oct2025 03:15:47.719] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [21, 22], discarding
-[05Oct2025 03:15:47.721] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [22, 22], discarding
-[05Oct2025 03:15:47.723] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [23, 22], discarding
-[05Oct2025 03:15:47.731] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [19, 23], discarding
-[05Oct2025 03:15:47.733] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [20, 23], discarding
-[05Oct2025 03:15:47.735] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [21, 23], discarding
-[05Oct2025 03:15:47.739] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [22, 23], discarding
-[05Oct2025 03:15:47.743] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [23, 23], discarding
-[05Oct2025 03:15:48.138] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 33], discarding
-[05Oct2025 03:15:48.140] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 35], discarding
-[05Oct2025 03:15:48.141] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 34], discarding
-[05Oct2025 03:15:48.142] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 36], discarding
-[05Oct2025 03:15:48.144] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 37], discarding
-[05Oct2025 03:15:48.182] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 34], discarding
-[05Oct2025 03:15:48.185] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 35], discarding
-[05Oct2025 03:15:48.186] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 33], discarding
-[05Oct2025 03:15:48.188] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 36], discarding
-[05Oct2025 03:15:48.189] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 38], discarding
-[05Oct2025 03:15:48.191] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 37], discarding
-[05Oct2025 03:15:48.192] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 38], discarding
-[05Oct2025 03:15:48.527] [Server thread/ERROR] [net.minecraft.world.level.block.entity.BlockEntity/]: Failed to load data for block entity minecraft:sign
-java.lang.NullPointerException: null
-	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:813) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.mojang.serialization.codecs.ListCodec.lambda$decode$1(ListCodec.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult$Instance.ap2(DataResult.java:318) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.apply2stable(DataResult.java:179) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.ListCodec.lambda$decode$2(ListCodec.java:48) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at com.mojang.serialization.codecs.ListCodec.lambda$decode$4(ListCodec.java:45) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.ListCodec.decode(ListCodec.java:39) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$7.decode(RecordCodecBuilder.java:406) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at net.minecraft.world.level.block.entity.SignBlockEntity.m_142466_(SignBlockEntity.java:106) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.block.entity.BlockEntity.m_155246_(BlockEntity.java:122) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.world.level.block.entity.BlockEntity.m_155241_(BlockEntity.java:120) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_196900_(ChunkSerializer.java:402) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.chunk.LevelChunk.m_62952_(LevelChunk.java:438) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ChunkMap.m_214854_(ChunkMap.java:715) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at com.mojang.datafixers.util.Either.lambda$mapLeft$0(Either.java:162) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either.mapLeft(Either.java:162) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at net.minecraft.server.level.ChunkMap.m_287044_(ChunkMap.java:699) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:269) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:758) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[05Oct2025 03:15:48.530] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:sign
-[05Oct2025 03:15:48.532] [Server thread/ERROR] [net.minecraft.world.level.block.entity.BlockEntity/]: Failed to load data for block entity minecraft:sign
-java.lang.NullPointerException: null
-	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:813) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.mojang.serialization.codecs.ListCodec.lambda$decode$1(ListCodec.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult$Instance.ap2(DataResult.java:318) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.apply2stable(DataResult.java:179) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.ListCodec.lambda$decode$2(ListCodec.java:48) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at com.mojang.serialization.codecs.ListCodec.lambda$decode$4(ListCodec.java:45) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.ListCodec.decode(ListCodec.java:39) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$7.decode(RecordCodecBuilder.java:406) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at net.minecraft.world.level.block.entity.SignBlockEntity.m_142466_(SignBlockEntity.java:106) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.block.entity.BlockEntity.m_155246_(BlockEntity.java:122) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.world.level.block.entity.BlockEntity.m_155241_(BlockEntity.java:120) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_196900_(ChunkSerializer.java:402) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.chunk.LevelChunk.m_62952_(LevelChunk.java:438) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ChunkMap.m_214854_(ChunkMap.java:715) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at com.mojang.datafixers.util.Either.lambda$mapLeft$0(Either.java:162) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either.mapLeft(Either.java:162) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at net.minecraft.server.level.ChunkMap.m_287044_(ChunkMap.java:699) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:269) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:758) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[05Oct2025 03:15:48.538] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:sign
-[05Oct2025 03:15:48.559] [Server thread/ERROR] [net.minecraft.world.level.block.entity.BlockEntity/]: Failed to load data for block entity minecraft:sign
-java.lang.NullPointerException: null
-	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:813) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.mojang.serialization.codecs.ListCodec.lambda$decode$1(ListCodec.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult$Instance.ap2(DataResult.java:318) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.apply2stable(DataResult.java:179) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.ListCodec.lambda$decode$2(ListCodec.java:48) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at com.mojang.serialization.codecs.ListCodec.lambda$decode$4(ListCodec.java:45) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.ListCodec.decode(ListCodec.java:39) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$7.decode(RecordCodecBuilder.java:406) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at net.minecraft.world.level.block.entity.SignBlockEntity.m_142466_(SignBlockEntity.java:106) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.block.entity.BlockEntity.m_155246_(BlockEntity.java:122) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.world.level.block.entity.BlockEntity.m_155241_(BlockEntity.java:120) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_196900_(ChunkSerializer.java:402) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.chunk.LevelChunk.m_62952_(LevelChunk.java:438) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ChunkMap.m_214854_(ChunkMap.java:715) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at com.mojang.datafixers.util.Either.lambda$mapLeft$0(Either.java:162) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either.mapLeft(Either.java:162) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at net.minecraft.server.level.ChunkMap.m_287044_(ChunkMap.java:699) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:269) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:758) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[05Oct2025 03:15:48.562] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:sign
-[05Oct2025 03:15:48.562] [Server thread/ERROR] [net.minecraft.world.level.block.entity.BlockEntity/]: Failed to load data for block entity minecraft:sign
-java.lang.NullPointerException: null
-	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:889) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.google.common.collect.ImmutableList$Builder.add(ImmutableList.java:813) ~[guava-31.1-jre.jar%2374!/:?]
-	at com.mojang.serialization.codecs.ListCodec.lambda$decode$1(ListCodec.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult$Instance.ap2(DataResult.java:318) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.apply2stable(DataResult.java:179) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.ListCodec.lambda$decode$2(ListCodec.java:48) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at com.mojang.serialization.codecs.ListCodec.lambda$decode$4(ListCodec.java:45) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.ListCodec.decode(ListCodec.java:39) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder$1.decode(Decoder.java:49) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Codec$2.decode(Codec.java:71) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.FieldDecoder.decode(FieldDecoder.java:29) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapCodec$1.decode(MapCodec.java:34) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.RecordCodecBuilder$Instance$7.decode(RecordCodecBuilder.java:406) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.codecs.RecordCodecBuilder$2.decode(RecordCodecBuilder.java:107) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapDecoder.lambda$compressedDecode$1(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.lambda$flatMap$11(DataResult.java:139) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.DataResult.flatMap(DataResult.java:137) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapDecoder.compressedDecode(MapDecoder.java:52) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.MapCodec$MapCodecCodec.decode(MapCodec.java:91) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.serialization.Decoder.parse(Decoder.java:18) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at net.minecraft.world.level.block.entity.SignBlockEntity.m_142466_(SignBlockEntity.java:106) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.block.entity.BlockEntity.m_155246_(BlockEntity.java:122) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.util.Optional.map(Optional.java:260) ~[?:?]
-	at net.minecraft.world.level.block.entity.BlockEntity.m_155241_(BlockEntity.java:120) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.chunk.storage.ChunkSerializer.m_196900_(ChunkSerializer.java:402) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.world.level.chunk.LevelChunk.m_62952_(LevelChunk.java:438) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ChunkMap.m_214854_(ChunkMap.java:715) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at com.mojang.datafixers.util.Either.lambda$mapLeft$0(Either.java:162) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at com.mojang.datafixers.util.Either.mapLeft(Either.java:162) ~[datafixerupper-6.0.8.jar%2377!/:?]
-	at net.minecraft.server.level.ChunkMap.m_287044_(ChunkMap.java:699) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.level.ChunkTaskPriorityQueueSorter.m_143188_(ChunkTaskPriorityQueueSorter.java:62) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.level.ServerChunkCache.m_8466_(ServerChunkCache.java:269) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:758) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23105!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[05Oct2025 03:15:48.565] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:sign
-[05Oct2025 03:15:48.687] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/290, l='ServerLevel[world]', x=283.25, y=36.00, z=411.56, removed=DISCARDED]
-[05Oct2025 03:15:48.687] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/291, l='ServerLevel[world]', x=284.19, y=36.02, z=411.13, removed=DISCARDED]
-[05Oct2025 03:15:48.688] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/292, l='ServerLevel[world]', x=285.88, y=37.00, z=410.25, removed=DISCARDED]
-[05Oct2025 03:15:48.780] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:48.781] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:48.782] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:48.782] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:48.783] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:48.785] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:48.940] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:48.941] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:48.942] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:48.942] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:48.942] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:48.942] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:48.945] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:49.110] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:49.110] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:49.110] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:49.110] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:49.111] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:49.111] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:49.111] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:49.371] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/344, l='ServerLevel[world]', x=393.85, y=97.00, z=355.33, removed=DISCARDED]
-[05Oct2025 03:15:49.410] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:49.411] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:49.411] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:49.412] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:49.412] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:49.412] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:49.412] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:49.657] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:49.657] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:49.657] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:49.658] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:49.658] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:49.658] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:49.659] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:49.659] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:49.659] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:50.102] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:50.102] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:50.104] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:50.105] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:50.107] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:50.107] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:50.257] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:50.257] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:50.465] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:50.465] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:50.466] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:50.466] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:50.466] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:50.467] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:50.467] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:50.970] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 33], discarding
-[05Oct2025 03:15:50.973] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [2, 33], discarding
-[05Oct2025 03:15:50.974] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 33], discarding
-[05Oct2025 03:15:50.975] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [4, 33], discarding
-[05Oct2025 03:15:50.976] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [5, 33], discarding
-[05Oct2025 03:15:50.977] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 33], discarding
-[05Oct2025 03:15:50.978] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 33], discarding
-[05Oct2025 03:15:50.978] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 33], discarding
-[05Oct2025 03:15:50.982] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 34], discarding
-[05Oct2025 03:15:50.983] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [2, 34], discarding
-[05Oct2025 03:15:50.987] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 34], discarding
-[05Oct2025 03:15:50.989] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [4, 34], discarding
-[05Oct2025 03:15:50.990] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [5, 34], discarding
-[05Oct2025 03:15:50.991] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 34], discarding
-[05Oct2025 03:15:50.993] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 34], discarding
-[05Oct2025 03:15:50.994] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 34], discarding
-[05Oct2025 03:15:51.014] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 35], discarding
-[05Oct2025 03:15:51.015] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [2, 35], discarding
-[05Oct2025 03:15:51.017] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 35], discarding
-[05Oct2025 03:15:51.018] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [4, 35], discarding
-[05Oct2025 03:15:51.020] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [5, 35], discarding
-[05Oct2025 03:15:51.021] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 35], discarding
-[05Oct2025 03:15:51.022] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 35], discarding
-[05Oct2025 03:15:51.024] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 35], discarding
-[05Oct2025 03:15:51.026] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 36], discarding
-[05Oct2025 03:15:51.027] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [2, 36], discarding
-[05Oct2025 03:15:51.028] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 36], discarding
-[05Oct2025 03:15:51.029] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [4, 36], discarding
-[05Oct2025 03:15:51.030] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [5, 36], discarding
-[05Oct2025 03:15:51.031] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 36], discarding
-[05Oct2025 03:15:51.033] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 36], discarding
-[05Oct2025 03:15:51.035] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 36], discarding
-[05Oct2025 03:15:51.038] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 37], discarding
-[05Oct2025 03:15:51.039] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [2, 37], discarding
-[05Oct2025 03:15:51.042] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 37], discarding
-[05Oct2025 03:15:51.044] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [4, 37], discarding
-[05Oct2025 03:15:51.046] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [5, 37], discarding
-[05Oct2025 03:15:51.049] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 37], discarding
-[05Oct2025 03:15:51.050] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 37], discarding
-[05Oct2025 03:15:51.051] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 37], discarding
-[05Oct2025 03:15:51.083] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 38], discarding
-[05Oct2025 03:15:51.085] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [2, 38], discarding
-[05Oct2025 03:15:51.086] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 38], discarding
-[05Oct2025 03:15:51.087] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [4, 38], discarding
-[05Oct2025 03:15:51.089] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [5, 38], discarding
-[05Oct2025 03:15:51.090] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 38], discarding
-[05Oct2025 03:15:51.091] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 38], discarding
-[05Oct2025 03:15:51.092] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 38], discarding
-[05Oct2025 03:15:51.104] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 39], discarding
-[05Oct2025 03:15:51.105] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 39], discarding
-[05Oct2025 03:15:51.106] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [4, 39], discarding
-[05Oct2025 03:15:51.107] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [5, 39], discarding
-[05Oct2025 03:15:51.108] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: minecraft:trial_chambers
-[05Oct2025 03:15:51.109] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 39], discarding
-[05Oct2025 03:15:51.110] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 39], discarding
-[05Oct2025 03:15:51.112] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 39], discarding
-[05Oct2025 03:15:51.116] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 40], discarding
-[05Oct2025 03:15:51.117] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [2, 40], discarding
-[05Oct2025 03:15:51.117] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 40], discarding
-[05Oct2025 03:15:51.516] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:51.648] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:51.649] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:trial_spawner
-[05Oct2025 03:15:51.654] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id minecraft:vault
-[05Oct2025 03:15:53.337] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [34, 7], discarding
-[05Oct2025 03:15:53.339] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [35, 7], discarding
-[05Oct2025 03:15:53.343] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [36, 7], discarding
-[05Oct2025 03:15:53.347] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [37, 7], discarding
-[05Oct2025 03:15:53.348] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [38, 7], discarding
-[05Oct2025 03:15:53.369] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [39, 7], discarding
-[05Oct2025 03:15:54.013] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [40, 7], discarding
-[05Oct2025 03:16:01.741] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: JuanSBN lost connection: Disconnected
-[05Oct2025 03:16:01.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JuanSBN left the game
+[05Oct2025 14:19:06.950] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[05Oct2025 14:19:06.954] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[05Oct2025 14:19:07.200] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[05Oct2025 14:19:07.333] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Servidor/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[05Oct2025 14:19:07.693] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[05Oct2025 14:19:07.695] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[05Oct2025 14:19:07.696] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[05Oct2025 14:19:07.698] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Servidor/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[05Oct2025 14:19:07.913] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[05Oct2025 14:19:09.400] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[05Oct2025 14:19:09.403] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[05Oct2025 14:19:14.974] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[05Oct2025 14:19:14.981] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[05Oct2025 14:19:15.892] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[05Oct2025 14:19:16.199] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[05Oct2025 14:19:16.816] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05Oct2025 14:19:17.701] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23105!/assets/.mcassetsroot' uses unexpected schema
+[05Oct2025 14:19:17.702] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Servidor/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23105!/data/.mcassetsroot' uses unexpected schema
+[05Oct2025 14:19:19.381] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[05Oct2025 14:19:19.541] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[05Oct2025 14:19:19.958] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[05Oct2025 14:19:19.958] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[05Oct2025 14:19:19.959] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[05Oct2025 14:19:19.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[05Oct2025 14:19:20.087] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[05Oct2025 14:19:20.114] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[05Oct2025 14:19:20.203] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05Oct2025 14:19:20.204] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[05Oct2025 14:19:20.204] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05Oct2025 14:19:20.204] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[05Oct2025 14:19:20.244] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[05Oct2025 14:19:23.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[05Oct2025 14:19:25.895] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Oct2025 14:19:25.930] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Oct2025 14:19:25.937] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Oct2025 14:19:25.938] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Oct2025 14:19:25.952] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Oct2025 14:19:25.972] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Oct2025 14:19:26.163] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Oct2025 14:19:26.243] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 0], discarding
+[05Oct2025 14:19:26.245] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 1], discarding
+[05Oct2025 14:19:26.246] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 2], discarding
+[05Oct2025 14:19:26.247] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 3], discarding
+[05Oct2025 14:19:26.248] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 4], discarding
+[05Oct2025 14:19:26.249] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 5], discarding
+[05Oct2025 14:19:26.250] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 6], discarding
+[05Oct2025 14:19:26.252] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 7], discarding
+[05Oct2025 14:19:26.255] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 8], discarding
+[05Oct2025 14:19:26.257] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, 9], discarding
+[05Oct2025 14:19:26.363] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 0], discarding
+[05Oct2025 14:19:26.365] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 1], discarding
+[05Oct2025 14:19:26.367] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 2], discarding
+[05Oct2025 14:19:26.369] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 3], discarding
+[05Oct2025 14:19:26.371] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 4], discarding
+[05Oct2025 14:19:26.373] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 5], discarding
+[05Oct2025 14:19:26.375] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 6], discarding
+[05Oct2025 14:19:26.378] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 7], discarding
+[05Oct2025 14:19:26.379] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 8], discarding
+[05Oct2025 14:19:26.381] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, 9], discarding
+[05Oct2025 14:19:26.633] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Oct2025 14:19:27.129] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Oct2025 14:19:27.298] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 0], discarding
+[05Oct2025 14:19:27.299] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 1], discarding
+[05Oct2025 14:19:27.300] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 2], discarding
+[05Oct2025 14:19:27.301] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 3], discarding
+[05Oct2025 14:19:27.304] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 4], discarding
+[05Oct2025 14:19:27.307] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 5], discarding
+[05Oct2025 14:19:27.310] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 6], discarding
+[05Oct2025 14:19:27.313] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 7], discarding
+[05Oct2025 14:19:27.314] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 8], discarding
+[05Oct2025 14:19:27.316] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, 9], discarding
+[05Oct2025 14:19:27.348] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 0], discarding
+[05Oct2025 14:19:27.350] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 1], discarding
+[05Oct2025 14:19:27.351] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 2], discarding
+[05Oct2025 14:19:27.357] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 3], discarding
+[05Oct2025 14:19:27.361] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 5], discarding
+[05Oct2025 14:19:27.363] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 6], discarding
+[05Oct2025 14:19:27.366] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 7], discarding
+[05Oct2025 14:19:27.374] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 8], discarding
+[05Oct2025 14:19:27.376] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, 9], discarding
+[05Oct2025 14:19:27.628] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Oct2025 14:19:27.694] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 0], discarding
+[05Oct2025 14:19:27.695] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 1], discarding
+[05Oct2025 14:19:27.696] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 2], discarding
+[05Oct2025 14:19:27.698] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: minecraft:trial_chambers
+[05Oct2025 14:19:27.698] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 4], discarding
+[05Oct2025 14:19:27.700] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 5], discarding
+[05Oct2025 14:19:27.701] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 6], discarding
+[05Oct2025 14:19:27.702] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 7], discarding
+[05Oct2025 14:19:27.720] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 0], discarding
+[05Oct2025 14:19:27.722] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 1], discarding
+[05Oct2025 14:19:27.723] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 2], discarding
+[05Oct2025 14:19:27.725] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 3], discarding
+[05Oct2025 14:19:27.726] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 4], discarding
+[05Oct2025 14:19:27.727] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 5], discarding
+[05Oct2025 14:19:27.729] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 6], discarding
+[05Oct2025 14:19:27.731] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 7], discarding
+[05Oct2025 14:19:27.732] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 8], discarding
+[05Oct2025 14:19:27.733] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 8], discarding
+[05Oct2025 14:19:27.734] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-25, 9], discarding
+[05Oct2025 14:19:27.736] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-24, 9], discarding
+[05Oct2025 14:19:27.766] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 0], discarding
+[05Oct2025 14:19:27.769] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 1], discarding
+[05Oct2025 14:19:27.771] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 2], discarding
+[05Oct2025 14:19:27.775] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 3], discarding
+[05Oct2025 14:19:27.778] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 4], discarding
+[05Oct2025 14:19:27.781] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 5], discarding
+[05Oct2025 14:19:27.783] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 6], discarding
+[05Oct2025 14:19:27.785] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 7], discarding
+[05Oct2025 14:19:27.789] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 8], discarding
+[05Oct2025 14:19:27.794] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-26, 9], discarding
+[05Oct2025 14:19:28.124] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[05Oct2025 14:19:29.347] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
+[05Oct2025 14:19:29.348] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 71%
+[05Oct2025 14:19:29.633] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
+[05Oct2025 14:19:30.139] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
+[05Oct2025 14:19:30.356] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7232 ms
+[05Oct2025 14:19:30.356] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.137s)! For help, type "help"
+[05Oct2025 14:19:30.373] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[05Oct2025 14:21:25.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made JuanSBN a server operator
+[05Oct2025 14:23:01.699] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/e7831d85-0e07-3f61-b3ca-c38af905ef19.json: Don't know what minecraft:leaf_litter is
+[05Oct2025 14:23:01.699] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/e7831d85-0e07-3f61-b3ca-c38af905ef19.json: Don't know what minecraft:leaf_litter is
+[05Oct2025 14:23:01.700] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/e7831d85-0e07-3f61-b3ca-c38af905ef19.json: Don't know what minecraft:leaf_litter is
+[05Oct2025 14:23:01.701] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/e7831d85-0e07-3f61-b3ca-c38af905ef19.json: Don't know what minecraft:short_grass is
+[05Oct2025 14:23:01.730] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/transportation/pale_oak_boat' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.731] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/redstone/copper_door' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.731] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/redstone/copper_trapdoor' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.732] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.732] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.732] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/tuff_slab' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.732] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.732] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/decorations/polished_tuff_wall_from_tuff_stonecutting' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.733] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/decorations/tuff_wall' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.733] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.733] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.733] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/tuff_stairs' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.733] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.733] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.733] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.734] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.734] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.734] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/polished_tuff' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.734] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.734] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting' in progress file ./world/advancements/e7831d85-0e07-3f61-b3ca-c38af905ef19.json - it doesn't exist anymore?
+[05Oct2025 14:23:01.772] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_slab removed now.
+[05Oct2025 14:23:01.773] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_wall removed now.
+[05Oct2025 14:23:01.773] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:chiseled_tuff_bricks_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.773] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_wall_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.773] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.774] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_brick_stairs_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.774] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_brick_slab_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.774] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:chiseled_tuff_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.774] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:copper_door removed now.
+[05Oct2025 14:23:01.774] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff removed now.
+[05Oct2025 14:23:01.774] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:copper_trapdoor removed now.
+[05Oct2025 14:23:01.774] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_slab_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.775] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_bricks_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.775] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_wall_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.775] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_slab_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.775] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_stairs_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.775] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_brick_wall_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.775] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:pale_oak_boat removed now.
+[05Oct2025 14:23:01.776] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_stairs removed now.
+[05Oct2025 14:23:01.776] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_stairs_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.777] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_wall removed now.
+[05Oct2025 14:23:01.779] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_stairs_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.779] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:chiseled_tuff_bricks_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.780] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_brick_wall_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.781] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_wall_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.781] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.782] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_brick_slab_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.782] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_brick_stairs_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.783] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_stairs_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.784] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:chiseled_tuff_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.785] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:polished_tuff_slab_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.785] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_bricks_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.786] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_wall_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.787] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: minecraft:tuff_slab_from_tuff_stonecutting removed now.
+[05Oct2025 14:23:01.790] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: manuelreyes89[/127.161.138.45:49373] logged in with entity id 125 at (-60.5, 88.0, 92.5)
+[05Oct2025 14:23:01.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: manuelreyes89 joined the game
+[05Oct2025 14:23:03.432] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: JuanSBN[/127.159.157.93:35479] logged in with entity id 186 at (319.3839085013749, 64.0, 390.5767245964136)
+[05Oct2025 14:23:03.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: JuanSBN joined the game
+[05Oct2025 14:23:07.336] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 33], discarding
+[05Oct2025 14:23:07.338] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [2, 33], discarding
+[05Oct2025 14:23:07.340] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [4, 33], discarding
+[05Oct2025 14:23:07.341] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 33], discarding
+[05Oct2025 14:23:07.342] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [5, 33], discarding
+[05Oct2025 14:23:07.344] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 33], discarding
+[05Oct2025 14:23:07.349] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 34], discarding
+[05Oct2025 14:23:07.350] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [2, 34], discarding
+[05Oct2025 14:23:07.354] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 34], discarding
+[05Oct2025 14:23:07.355] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [4, 34], discarding
+[05Oct2025 14:23:07.356] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [5, 34], discarding
+[05Oct2025 14:23:07.358] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 34], discarding
+[05Oct2025 14:23:07.364] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 35], discarding
+[05Oct2025 14:23:07.365] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [2, 35], discarding
+[05Oct2025 14:23:07.367] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 35], discarding
+[05Oct2025 14:23:07.368] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [4, 35], discarding
+[05Oct2025 14:23:07.371] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [5, 35], discarding
+[05Oct2025 14:23:07.403] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 36], discarding
+[05Oct2025 14:23:07.404] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [2, 36], discarding
+[05Oct2025 14:23:07.410] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 36], discarding
+[05Oct2025 14:23:07.413] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [4, 36], discarding
+[05Oct2025 14:23:07.414] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [5, 36], discarding
+[05Oct2025 14:23:07.415] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 36], discarding
+[05Oct2025 14:23:07.421] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 37], discarding
+[05Oct2025 14:23:07.422] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [2, 37], discarding
+[05Oct2025 14:23:07.424] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 37], discarding
+[05Oct2025 14:23:07.425] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [4, 37], discarding
+[05Oct2025 14:23:07.426] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [5, 37], discarding
+[05Oct2025 14:23:07.431] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 37], discarding
+[05Oct2025 14:23:07.446] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 38], discarding
+[05Oct2025 14:23:07.448] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 38], discarding
+[05Oct2025 14:23:07.449] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [2, 38], discarding
+[05Oct2025 14:23:07.450] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [4, 38], discarding
+[05Oct2025 14:23:07.473] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [5, 38], discarding
+[05Oct2025 14:23:07.474] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 38], discarding
+[05Oct2025 14:23:07.476] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 38], discarding
+[05Oct2025 14:23:07.477] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [8, 38], discarding
+[05Oct2025 14:23:07.479] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [9, 38], discarding
+[05Oct2025 14:23:07.481] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 38], discarding
+[05Oct2025 14:23:07.500] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 39], discarding
+[05Oct2025 14:23:07.501] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 39], discarding
+[05Oct2025 14:23:07.502] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [4, 39], discarding
+[05Oct2025 14:23:07.504] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [5, 39], discarding
+[05Oct2025 14:23:07.505] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: minecraft:trial_chambers
+[05Oct2025 14:23:07.506] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [6, 39], discarding
+[05Oct2025 14:23:07.507] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [7, 39], discarding
+[05Oct2025 14:23:07.509] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [10, 39], discarding
+[05Oct2025 14:23:07.519] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [1, 40], discarding
+[05Oct2025 14:23:07.520] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [2, 40], discarding
+[05Oct2025 14:23:07.520] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [3, 40], discarding
+[05Oct2025 14:23:09.128] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, -18], discarding
+[05Oct2025 14:23:09.129] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, -18], discarding
+[05Oct2025 14:23:09.130] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -18], discarding
+[05Oct2025 14:23:09.131] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, -18], discarding
+[05Oct2025 14:23:09.135] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-23, -17], discarding
+[05Oct2025 14:23:09.137] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, -17], discarding
+[05Oct2025 14:23:18.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [JuanSBN: Set own game mode to Creative Mode]
+[05Oct2025 14:23:22.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [JuanSBN: Set manuelreyes89's game mode to Creative Mode]
+[05Oct2025 14:23:24.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [JuanSBN: Teleported JuanSBN to manuelreyes89]
+[05Oct2025 14:25:25.336] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [JuanSBN: Teleported JuanSBN to manuelreyes89]
+[05Oct2025 14:29:01.931] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2508ms or 50 ticks behind
+[05Oct2025 14:29:34.326] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [34, 0], discarding
+[05Oct2025 14:29:34.327] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [35, 0], discarding
+[05Oct2025 14:29:34.329] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [36, 0], discarding
+[05Oct2025 14:29:34.334] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [34, 1], discarding
+[05Oct2025 14:29:34.335] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [35, 1], discarding
+[05Oct2025 14:29:34.337] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [36, 1], discarding
+[05Oct2025 14:29:34.343] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [34, 2], discarding
+[05Oct2025 14:29:34.344] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [35, 2], discarding
+[05Oct2025 14:29:34.346] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [36, 2], discarding
+[05Oct2025 14:29:34.353] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [34, 3], discarding
+[05Oct2025 14:29:34.355] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [35, 3], discarding
+[05Oct2025 14:29:34.357] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [36, 3], discarding
+[05Oct2025 14:29:34.364] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [34, 4], discarding
+[05Oct2025 14:29:34.366] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [35, 4], discarding
+[05Oct2025 14:29:34.368] [Server thread/ERROR] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Unknown structure start: minecraft:trial_chambers
+[05Oct2025 14:29:34.368] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [36, 4], discarding
+[05Oct2025 14:29:34.387] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [34, 5], discarding
+[05Oct2025 14:29:34.389] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [35, 5], discarding
+[05Oct2025 14:29:34.390] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [36, 5], discarding
+[05Oct2025 14:29:34.398] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [34, 6], discarding
+[05Oct2025 14:29:34.399] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [35, 6], discarding
+[05Oct2025 14:29:34.401] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [36, 6], discarding
+[05Oct2025 14:29:34.408] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [34, 7], discarding
+[05Oct2025 14:29:34.409] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [35, 7], discarding
+[05Oct2025 14:29:34.410] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [36, 7], discarding
+[05Oct2025 14:29:34.429] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [37, 0], discarding
+[05Oct2025 14:29:34.431] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [37, 1], discarding
+[05Oct2025 14:29:34.433] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [37, 2], discarding
+[05Oct2025 14:29:34.433] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [37, 3], discarding
+[05Oct2025 14:29:34.435] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [37, 4], discarding
+[05Oct2025 14:29:34.449] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [37, 5], discarding
+[05Oct2025 14:29:34.450] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [37, 6], discarding
+[05Oct2025 14:29:34.451] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [37, 7], discarding
+[05Oct2025 14:29:34.465] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [38, 0], discarding
+[05Oct2025 14:29:34.466] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [38, 1], discarding
+[05Oct2025 14:29:34.468] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [38, 2], discarding
+[05Oct2025 14:29:34.469] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [38, 3], discarding
+[05Oct2025 14:29:34.470] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [38, 4], discarding
+[05Oct2025 14:29:34.471] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [38, 5], discarding
+[05Oct2025 14:29:34.473] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [38, 6], discarding
+[05Oct2025 14:29:34.474] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [38, 7], discarding
+[05Oct2025 14:29:59.842] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/1333, l='ServerLevel[world]', x=98.13, y=63.00, z=335.88, removed=DISCARDED]
+[05Oct2025 14:34:54.670] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, -19], discarding
+[05Oct2025 14:34:54.672] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -19], discarding
+[05Oct2025 14:34:54.675] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, -19], discarding
+[05Oct2025 14:34:54.679] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-22, -18], discarding
+[05Oct2025 14:34:54.703] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-21, -18], discarding
+[05Oct2025 14:34:54.704] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, -18], discarding
+[05Oct2025 14:35:37.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [JuanSBN: Teleported JuanSBN to manuelreyes89]
+[05Oct2025 14:36:30.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [JuanSBN: Set the time to 1000]
