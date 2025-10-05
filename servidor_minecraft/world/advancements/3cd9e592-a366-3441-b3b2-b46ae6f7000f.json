@@ -2344,6 +2344,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-10-05 14:41:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_pickaxe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-10-05 14:26:06 +0000"
@@ -2389,6 +2395,12 @@
   "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2025-10-05 14:26:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2025-10-05 14:41:12 +0000"
     },
     "done": true
   },

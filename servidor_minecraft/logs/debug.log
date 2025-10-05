@@ -1043,3 +1043,8 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [05Oct2025 14:34:54.704] [Server thread/WARN] [net.minecraft.world.level.chunk.storage.ChunkSerializer/]: Found reference to unknown structure 'minecraft:trial_chambers' in chunk [-20, -18], discarding
 [05Oct2025 14:35:37.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [JuanSBN: Teleported JuanSBN to manuelreyes89]
 [05Oct2025 14:36:30.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [JuanSBN: Set the time to 1000]
+[05Oct2025 14:39:32.844] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Oct2025 14:39:32.849] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Oct2025 14:44:32.839] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Oct2025 14:44:32.843] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Oct2025 14:46:46.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [JuanSBN: Set the time to 1000]
